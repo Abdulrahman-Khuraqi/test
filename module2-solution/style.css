@@ -19,10 +19,10 @@ div{
 }
 
 @media (min-width: 992px  ) {
-  .child , .part ,.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
-    margin :1%;
+    margin :1.6%;
   }
   
   .col-lg-4 {
@@ -36,7 +36,7 @@ div{
   .col-td-1, .col-td-2, .col-td-3, .col-td-4, .col-td-5, .col-td-6, .col-td-7, .col-td-8, .col-td-9, .col-td-10, .col-td-11, .col-td-12 {
     float: left;
  border: 1px solid green;
- margin :10px; 
+ margin :2.5%; 
   }
   .col-td-1 {
     width: 8.33%;
@@ -72,7 +72,7 @@ div{
     width: 91.66%;
   }
   .col-td-12 {
-    width: 92%;
+    width: 95%;
   }
 }
 @media (max-width: 767px ) {
@@ -80,9 +80,9 @@ div{
     float: left;
     border: 1px solid green;
     width: 33%;
-  height: 50px;
- margin: 10px;
-  padding: 5px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
 
   }
   .col-md-1 {
@@ -125,30 +125,25 @@ div{
 
 
 .parnt{
-  align-self: center;
-
-  border: 4px solid gray;
+  border: 1px solid black;
   color :white;
-  background-color:blue;
+  background-color:gray;
   height: 130px;
   padding:10px;
   padding-top: 60px;
-
-  text-align: center;
+  text-align: left;
   position: relative;
   font-size: 20px
 
 }
 .child{
-  border: 4px solid gray;
+  border: 1px solid black;
   top:0px;
   right: 0px;
+  padding :2px;
   position: absolute;
-  font-color: white;
-  color:blue;
+  color:white;
   font-weight: bold;
-  background-color: orange;
-  font-size: 25px
-
-  
+  background-color:#00009f;
+  font-size: 25px ;
 }
