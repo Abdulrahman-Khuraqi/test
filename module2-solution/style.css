@@ -22,44 +22,13 @@ div{
   .child , .part ,.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
-    margin :10px;
+    margin :1%;
   }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
+  
   .col-lg-4 {
-    width: 33.33%;
+    width: 30%;
   }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
+ 
 }
 
 /********** Medium devices only **********/
@@ -85,7 +54,7 @@ div{
     width: 41.66%;
   }
   .col-td-6 {
-    width: 50%;
+    width: 45%;
   }
   .col-td-7 {
     width: 58.33%;
@@ -103,7 +72,7 @@ div{
     width: 91.66%;
   }
   .col-td-12 {
-    width: 100%;
+    width: 92%;
   }
 }
 @media (max-width: 767px ) {
@@ -112,7 +81,7 @@ div{
     border: 1px solid green;
     width: 33%;
   height: 50px;
-  margin: 5px;
+ margin: 10px;
   padding: 5px;
 
   }
@@ -150,12 +119,13 @@ div{
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 95%;
   }
 }
 
 
 .parnt{
+  align-self: center;
 
   border: 4px solid gray;
   color :white;
@@ -163,10 +133,10 @@ div{
   height: 130px;
   padding:10px;
   padding-top: 60px;
+
   text-align: center;
   position: relative;
   font-size: 20px
-
 }
 .child{
   border: 4px solid gray;
@@ -177,7 +147,5 @@ div{
   color:blue;
   font-weight: bold;
   background-color: orange;
-  font-size: 25px
-
-  
+  font-size: 25px  
 }
